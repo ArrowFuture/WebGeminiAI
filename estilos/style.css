@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, rgba(74, 144, 226, 0.8), rgba(213, 0, 109, 0.8), rgba(155, 89, 182, 0.8)); /* Fondo con gradiente sutil */
+  color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.hero {
+  flex: 1;
+  background: linear-gradient(135deg, rgba(74, 144, 226, 0.6), rgba(213, 0, 109, 0.6));
+  color: white;
+}
+
+.navbar {
+  background-color: rgba(44, 62, 80, 0.8);
+}
+.navbar .nav-link {
+  color: #ecf0f1;
+}
+.navbar .nav-link:hover {
+  color: #D5006D;
+}
+
+section {
+  padding: 50px 0;
+}
+section.servicios, section.contacto {
+  background: transparent;
+}
+section.servicios h2, section.contacto h2 {
+  color: #ecf0f1;
+}
+section.servicios .card, section.contacto .card {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #2c3e50;
+}
+section.servicios .card .card-title, section.contacto .card .card-title {
+  color: #4A90E2;
+}
+section.servicios .card .card-text, section.contacto .card .card-text {
+  color: #2c3e50;
+}
+
+footer {
+  background-color: rgba(44, 62, 80, 0.8);
+  color: #ecf0f1;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+footer p {
+  color: #ecf0f1;
+}
+
+button {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #D5006D;
+}
+
+a {
+  color: #4A90E2;
+  text-decoration: none;
+}
+a:hover {
+  color: #D5006D;
+}
+
+#section-nosotros {
+  color: white;
+  text-align: center;
+}
+
+#section-blog {
+  color: white;
+  text-align: center;
+}
+
+#contacto #imgcontacto {
+  max-width: 300px;
+  border: 5px solid #2c3e50;
+  display: block;
+  margin: 0 auto;
+}
+#contacto form .form-group {
+  margin-bottom: 20px;
+  color: white;
+}
+#contacto form button {
+  background-color: #4A90E2;
+  color: white;
+}
+#contacto form button:hover {
+  background-color: #D5006D;
+}
+
+.rounded-custom {
+  max-width: 600px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  width: 250%;
+  height: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
